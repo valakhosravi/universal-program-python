@@ -1,0 +1,11 @@
+ 1: P   -> STS
+ 2: STS -> ST STS
+ 3: STS -> ''
+ 4: ST  -> A B
+ 5: A   -> [ label ]
+ 6: A   -> ''
+ 7: B   -> id <- id M
+ 8: B   -> if ~ ( id = 0 ) GoTo label
+ 9: M   -> + 1
+10: M   -> - 1
+11: M   -> ''
